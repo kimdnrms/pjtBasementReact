@@ -1,0 +1,10 @@
+Explanation about package.json
+  1. babel-cli vs @babel/cli
+    The @ signifies the usage of an "npm scope":
+    https://docs.npmjs.com/about-scopes
+    It's basically a way to avoid name clashing, so we could both own modules @cdbrouk/foo and @jedrichards/foo.
+    Babel moved to using the @babel scope a while ago, so the @babel/... modules are the correct ones to use.
+    babel-eslint also is deprecated. and it moves to @babel/eslint-parser
+
+  2. React 18 has native support for hot reloading, this is called Fast Refresh. So hot-loader isn't needed to use.
+

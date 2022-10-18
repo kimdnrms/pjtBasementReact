@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "target": "es6",
+    "jsx": "react",
+    "paths": {
+      "components/*": ["components/*"],
+      "containers/*": ["containers/*"],
+      "pages/*": ["pages/*"],
+      "sagas/*": ["sagas/*"],
+      "store/*": ["store/*"],
+      "routes/*": ["routes/*"],
+      "templates/*": ["templates/*"],
+      "util/*": ["util/*"],
+      "baseUI/*": ["baseUI/*"],
+    }
+  },
+  "include": [
+    "./src/components/**/*",
+    "./src/containers/**/*",
+    "./src/pages/**/*",
+    "./src/sagas/**/*",
+    "./src/store/**/*",
+    "./src/routes/**/*",
+    "./src/templates/**/*",
+    "./src/util/**/*",
+    "./src/baseUI/components/**/*",
+    "./src/baseUI/containers/**/*",
+    "./src/baseUI/util/**/*",
+  ]
+}
